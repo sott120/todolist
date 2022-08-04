@@ -1,0 +1,67 @@
+section {
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    background-color: lavender;
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 100px;
+    color: rgb(37, 37, 37);
+}
+
+.inputbox {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.inputbox input {
+    border: none;
+    outline: none;
+    height: 38px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 1px 10px;
+}
+
+.inputbox button {
+    border: none;
+    background-color: lightcoral;
+    width: 60px;
+    height: 40px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-weight: bold;
+    color: rgb(37, 37, 37);
+}
+
+#itemList {
+    text-align: left;
+    min-height: 600px;
+    background-color: rgb(218, 206, 255);
+    font-size: 17px;
+    font-weight: 600;
+}
+
+#itemList li {
+    padding: 10px 40px;
+    box-sizing: border-box;
+    color: rgb(37, 37, 37);
+    background-color: rgb(215, 198, 250);
+    transition: 0.3s;
+}
+
+#itemList li:hover {
+    color: #fff;
+    background-color: rebeccapurple;
+}
+
+span {
+    color: crimson;
+    font-weight: bold;
+    cursor: pointer;
+}
